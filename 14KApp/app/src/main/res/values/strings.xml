@@ -1,0 +1,61 @@
+<resources>
+
+
+    <string name="app_name">14KApp</string>
+
+    <!-- Actividad Main -->
+    <string name="title">Bienvenid@ a 14K Stores</string>
+    <string name="email">Email</string>
+    <string name="passwordI">Contraseña</string>
+    <string name="passwordCheckBox">Mostrar contraseña</string>
+    <string name="loginL">Iniciar sesión</string>
+    <string name="registerL">¿Aún no tienes una cuenta? \nRegístrate aquí</string>
+
+    <!-- Actividad Registro -->
+    <string name="titleRegistro">Registra una cuenta</string>
+    <string name="nombreI">Nombre completo</string>
+    <string name="telefonoI">Número de teléfono</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="password">Contraseña (Mínimo 6 caracteres)</string>
+    <string name="registroB">Registrarse</string>
+
+    <!-- Actividad Inicio -->
+    <string name="solicitarB">Solicitar cita</string>
+    <string name="tiendaB">Ver productos</string>
+    <string name="datosB">Ver Datos</string>
+
+    <!-- Actividad Cita -->
+    <string name="titleCita">Cita taller</string>
+    <string name="aviso">*Asigna una fecha para ver las horas disponibles*</string>
+    <string name="fechaI">Fecha: dd/mm</string>
+    <string name="horaI">Hora</string>
+    <string name="descripcion">Descripción sobre la cita</string>
+
+    <!-- Actividad Productos -->
+    <string name="tituloProductos">Productos disponibles</string>
+    <string name="favoritos">Añadir a favoritos</string>
+
+    <!-- Fragmentos -->
+    <string name="products">Productos</string>
+    <string name="cita">Cita Taller</string>
+    <string name="citaR">Reservar una cita taller</string>
+    <string name="reservas">Mis Reservas</string>
+    <string name="tienda">Tienda</string>
+    <string name="mis_reservas">Mis reservas</string>
+    <string name="reservasTitle">Información de la Reserva</string>
+    <string name="anularReserva">Anular cita</string>
+    <string name="modificarReserva">Modificar reserva</string>
+    <string name="productos_favoritos">Favoritos</string>
+    <string name="mis_favoritos">Mis favoritos</string>
+    <string name="configuraci_n">Ajustes</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="modificar_datos_del_perfil">Modificar datos</string>
+    <string name="cambiar_contrase_a">Cambiar contraseña</string>
+    <string name="password1">Introduce tu contraseña actual</string>
+    <string name="password2">Introduce tu nueva contraseña \n(Mínimo 6 caracteres)</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

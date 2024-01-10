@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989845066753",
+    "project_id": "kapp-7cf35",
+    "storage_bucket": "kapp-7cf35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989845066753:android:b6b697b6af690834dd1c00",
+        "android_client_info": {
+          "package_name": "com.example.a14kapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989845066753-em91mlb14rqvuqn6do64fckjb2fkinqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL1nO46JX9UiixThU4FTSXRiCVj5h5Fko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989845066753-em91mlb14rqvuqn6do64fckjb2fkinqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

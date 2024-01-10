@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_blanco_hoja"
+    tools:context=".ModificarReserva">
+
+    <TextView
+        android:id="@+id/titulo_modificar_reserva"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:text="@string/modificarReserva"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/selectorHora_2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/border_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titulo_modificar_reserva"
+        app:layout_constraintVertical_bias="0.604"
+        tools:ignore="RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/descripcionIMR"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/descripcion"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/border_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titulo_modificar_reserva"
+        app:layout_constraintVertical_bias="0.361"
+        tools:ignore="RtlSymmetry" />
+
+    <Spinner
+        android:id="@+id/selectorTienda_2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/border_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titulo_modificar_reserva"
+        app:layout_constraintVertical_bias="0.238"
+        tools:ignore="RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/modificarReservaB"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:text="@string/guardar_cambios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772"
+        tools:ignore="VisualLintButtonSize" />
+
+    <EditText
+        android:id="@+id/fechaIMR"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_edittext"
+        android:ems="10"
+        android:hint="@string/fechaI"
+        android:inputType="date"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titulo_modificar_reserva"
+        app:layout_constraintVertical_bias="0.48"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry" />
+</androidx.constraintlayout.widget.ConstraintLayout>

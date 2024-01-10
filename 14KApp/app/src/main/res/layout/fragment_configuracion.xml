@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titulo_configuracion"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:text="@string/configuraci_n"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boton_modificar_datos"
+            android:layout_width="355dp"
+            android:layout_height="match_parent"
+            android:text="@string/modificar_datos_del_perfil"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boton_cambiar_password"
+            android:layout_width="352dp"
+            android:layout_height="match_parent"
+            android:text="@string/cambiar_contrase_a"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+</LinearLayout>

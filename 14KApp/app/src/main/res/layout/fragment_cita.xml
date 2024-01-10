@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CitaFragment" >
+
+    <TextView
+        android:id="@+id/title5"
+        android:layout_width="409dp"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:text="@string/citaR"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/tiendaList4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_edittext"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213"
+        tools:ignore="MissingConstraints,RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <Spinner
+        android:id="@+id/horaList"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_edittext"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531"
+        tools:ignore="MissingConstraints,RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/fechaI4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/border_edittext"
+        android:ems="10"
+        android:hint="@string/fechaI"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421"
+        tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/descripcionIC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/border_edittext"
+        android:ems="10"
+        android:hint="@string/descripcion"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316"
+        tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/solicitarB4"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/secondary"
+        android:text="@string/solicitarB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

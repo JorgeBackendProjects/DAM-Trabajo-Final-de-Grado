@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/linearlayout_border"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/titulo_Reservas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reservasTitle"
+            android:textColor="@color/primary" />
+
+        <TextView
+            android:id="@+id/tienda_item_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tienda" />
+
+        <TextView
+            android:id="@+id/descripcion_item_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion" />
+
+        <TextView
+            android:id="@+id/fecha_item_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fechaI" />
+
+        <TextView
+            android:id="@+id/hora_item_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horaI" />
+
+        <Button
+            android:id="@+id/modificarR_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modificarReserva"
+            android:clickable="true"
+            android:focusable="false"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/eliminarR_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/anularReserva"
+            android:clickable="true"
+            android:focusable="false"
+            tools:ignore="VisualLintButtonSize,TextSizeCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+</LinearLayout>

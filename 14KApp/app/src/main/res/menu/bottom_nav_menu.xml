@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_products"
+        android:icon="@drawable/icon_bicicleta"
+        android:title="@string/products" />
+
+    <item
+        android:id="@+id/navigation_cita"
+        android:icon="@drawable/icon_cita"
+        android:title="@string/cita" />
+
+    <item
+        android:id="@+id/navigation_configuracion"
+        android:icon="@drawable/icon_ajustes"
+        android:title="@string/configuraci_n" />
+    <item
+        android:id="@+id/navigation_reservas"
+        android:icon="@drawable/icon_reservas"
+        android:title="@string/reservas" />
+
+    <item
+        android:id="@+id/navigation_favoritos"
+        android:icon="@drawable/icon_fav"
+        android:title="@string/mis_favoritos" />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tiendas">
+        <item>14K Ceuta</item>
+        <item>14K Gibraltar</item>
+        <item>14K Málaga</item>
+    </string-array>
+</resources>
